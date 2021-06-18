@@ -5,7 +5,7 @@
 
 ## usage
 ```js
-const { load, encrypt, decrypt } = require('../package');
+const { load, encrypt, decrypt } = require('minio-crypto-wasm');
 
 load().then(() => {
   const enc = encrypt('123456aA', '{}')

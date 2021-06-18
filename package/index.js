@@ -5,7 +5,14 @@ global.crypto = {
     require('crypto').randomFillSync(b);
   }
 };
-
+if (!global.performance) {
+  global.performance = {
+    now() {
+      const [sec, nsec] = process.hrtime();
+      return sec * 1000 + nsec / 1000000;
+    },
+  };
+}
 // End of polyfills for common API.
 
 const encoder = new TextEncoder("utf-8");
