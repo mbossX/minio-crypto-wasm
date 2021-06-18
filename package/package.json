@@ -1,6 +1,6 @@
 {
   "name": "minio-crypto-wasm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "minio api en/decrypt",
   "main": "index.js",
   "types": "index.d.ts",
@@ -12,6 +12,13 @@
     "api",
     "decrypt",
     "encrypt"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "package.json",
+    "mcw.wasm",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public",
