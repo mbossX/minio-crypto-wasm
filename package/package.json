@@ -1,0 +1,22 @@
+{
+  "name": "minio-crypto-wasm",
+  "version": "1.0.0",
+  "description": "minio api en/decrypt",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minio",
+    "api",
+    "decrypt",
+    "encrypt"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://npm.jdjinsui.com"
+  },
+  "author": "MBoss",
+  "license": "ISC"
+}

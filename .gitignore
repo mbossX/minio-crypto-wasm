@@ -16,4 +16,3 @@
 
 tests/*
 !tests/index.js
-!tests/wasm_exec.js
